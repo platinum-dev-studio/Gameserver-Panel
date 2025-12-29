@@ -1,0 +1,68 @@
+:root {
+    --color-primary: #003b57;
+    --color-secondary: #3b3b3b;
+    --color-background: #000000;
+    --color-background2: #131313;
+    --color-text: #9b9b9b;
+    --font-family-base: "Roboto", Arial, sans-serif;
+    --font-size-base: 16px;
+    --spacing-base: 8px;
+    --color-petrol: #006269;
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url(./fonts/Roboto-Medium.ttf);
+}
+
+@font-face {
+    font-family: "Play";
+    src: url(./fonts/Play-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Roboto Slab";
+    src: url(./fonts/RobotoSlab-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Roboto Mono";
+    src: url(./fonts/RobotoMono-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Nova Square";
+    src: url(./fonts/NovaSquare-Regular.ttf);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--color-background);
+    color: var(--color-text);
+    font-family: var(--font-family-base);
+    font-size: var(--font-size-base);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    color: var(--color-text);
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.topbar {
+    color: ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--color-background2);
+    padding: calc(var(--spacing-base) * 2);
+}
+
+footer {
+    background-color: var(--color-background2);
+    padding: calc(var(--spacing-base) * 2);
+}
