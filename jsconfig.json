@@ -1,0 +1,36 @@
+{
+    "compilerOptions": {
+        "target": "ES2020",
+        "module": "commonjs",
+        "lib": [
+            "ES2020"
+        ],
+        "allowJs": true,
+        "checkJs": false,
+        "moduleResolution": "node",
+        "esModuleInterop": true,
+        "allowSyntheticDefaultImports": true,
+        "strict": false,
+        "skipLibCheck": true,
+        "forceConsistentCasingInFileNames": true,
+        "resolveJsonModule": true
+    },
+    "include": [
+        "**/*.js",
+        "**/*.json"
+    ],
+    "exclude": [
+        "node_modules",
+        "temp",
+        "tmp",
+        "cache",
+        "logs"
+    ],
+    "typeAcquisition": {
+        "enable": true,
+        "include": [
+            "node",
+            "discord.js"
+        ]
+    }
+}
